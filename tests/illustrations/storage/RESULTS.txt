@@ -1,0 +1,6 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m
+warning: [options] bootstrap class path not set in conjunction with -source 8
+1 warning
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m
+PASS 63 illustration storage/backup assertions
+Android EXIF parsing, WebP decoding and device memory behavior require device validation.
