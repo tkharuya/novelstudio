@@ -1,0 +1,11 @@
+warning: [options] bootstrap class path not set in conjunction with -source 8
+1 warning
+PASS 100-episode background sequence and edit preservation
+PASS partial continuation and pause/completion race
+PASS process recreation with partial text
+PASS commit-boundary recovery
+PASS storage failure stops queue and retains results
+PASS single-chapter resume
+PASS count/overwrite guards
+PASS service timeout, stale callbacks and next queue
+PASS 237 batch/resume assertions (real durable stores, mocked network/Android)
