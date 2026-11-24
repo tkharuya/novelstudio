@@ -1,0 +1,102 @@
+PASS No configuration by default
+PASS Separate encrypted namespace
+PASS Invalid native configuration rejected
+PASS Invalid native configuration rejected
+PASS Invalid native configuration rejected
+PASS Invalid native configuration rejected
+PASS Unconfigured generation rejects
+PASS No HTTP before explicit key configuration
+PASS Configured state
+PASS Status omits full key
+PASS Verified default model
+PASS Configure storage error is fixed text
+PASS Failed configure preserves model
+PASS Successful image completes
+PASS Successful image committed once
+PASS Native image metadata source
+PASS Success clears busy
+PASS One generated image
+PASS Bounded documented size
+PASS Explicit documented quality
+PASS PNG output requested
+PASS Legacy response_format omitted
+PASS Complete JSON response requested
+PASS Native Authorization header
+PASS POST transport
+PASS Redirects disabled
+PASS Read timeout is 180 seconds
+PASS Unbuffered fixed-length request
+PASS Success sends exactly one request
+PASS Gzip and UTF-8 BOM accepted once
+PASS Explicit gzip ownership
+PASS HTTP 400 rejected
+PASS HTTP 400 no secret echo
+PASS HTTP 400 sanitized status
+PASS HTTP 400 no commit or retry
+PASS HTTP 401 rejected
+PASS HTTP 401 no secret echo
+PASS HTTP 401 sanitized status
+PASS HTTP 401 no commit or retry
+PASS HTTP 403 rejected
+PASS HTTP 403 no secret echo
+PASS HTTP 403 sanitized status
+PASS HTTP 403 no commit or retry
+PASS HTTP 429 rejected
+PASS HTTP 429 no secret echo
+PASS HTTP 429 sanitized status
+PASS HTTP 429 no commit or retry
+PASS HTTP 500 rejected
+PASS HTTP 500 no secret echo
+PASS HTTP 500 sanitized status
+PASS HTTP 500 no commit or retry
+PASS HTTP 302 rejected
+PASS HTTP 302 no secret echo
+PASS HTTP 302 sanitized status
+PASS HTTP 302 no commit or retry
+PASS Known quota code has actionable fixed text
+PASS Invalid response 0 rejected
+PASS Invalid response 0 not echoed or committed
+PASS Invalid response 1 rejected
+PASS Invalid response 1 not echoed or committed
+PASS Invalid response 2 rejected
+PASS Invalid response 2 not echoed or committed
+PASS Invalid response 3 rejected
+PASS Invalid response 3 not echoed or committed
+PASS Invalid response 4 rejected
+PASS Invalid response 4 not echoed or committed
+PASS Invalid response 5 rejected
+PASS Invalid response 5 not echoed or committed
+PASS Invalid response 6 rejected
+PASS Invalid response 6 not echoed or committed
+PASS Invalid response 7 rejected
+PASS Invalid response 7 not echoed or committed
+PASS Oversized response bounded before reading
+PASS Timeout terminates
+PASS Timeout exception is not echoed
+PASS No automatic retry around billed POST
+PASS Timeout terminates
+PASS Timeout exception is not echoed
+PASS No automatic retry around billed POST
+PASS Response read started
+PASS Repeated active ID sends no second request or error
+PASS Cannot change key during generation
+PASS Cancellation event
+PASS Cancellation disconnects HTTP
+PASS Cancellation clears busy
+PASS New request can complete after cancellation
+PASS Cancelled worker cannot commit or send a late event
+PASS Close test response started
+PASS Close disconnects and ends busy state
+PASS Close publishes no completion
+PASS Clear failure hides storage details
+PASS Failed clear preserves configured memory state
+PASS Failed clear preserves stored credential consistently
+PASS Clear test response started
+PASS Clear cancels active generation
+PASS Successful clear removes active configuration
+PASS Successful clear persists empty credentials
+PASS Clear prevents image commit
+PASS Storage failure is not completed
+PASS Storage failure is sanitized
+PASS Storage failure does not regenerate a billed image
+PASS 101 offline image API checks; no real network or API calls
