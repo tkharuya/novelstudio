@@ -1,0 +1,6 @@
+package android.content;
+import java.io.File;
+public abstract class Context {
+    public Context getApplicationContext() { return this; }
+    public abstract File getFilesDir();
+}
