@@ -1,0 +1,5 @@
+warning: [options] bootstrap class path not set in conjunction with -source 8
+1 warning
+PASS 19 narration/runtime durability assertions; mocked Android and inference.
+PASS long text: 66850 chars, 2160 spans, 15 background requests
+PASS 1507 automatic chunking / resume assertions; production logic, mocked inference.

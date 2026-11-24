@@ -1,0 +1,5 @@
+{
+  "passed": 24,
+  "errors": [],
+  "limits": "Native/AI/audio mocked; no real synthesis or Android lifecycle validation."
+}
