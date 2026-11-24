@@ -1,0 +1,150 @@
+{
+  "scope": "Local HTML UI with a mocked native bridge; not real Android/OAuth/posting verification",
+  "results": [
+    {
+      "name": "initial render and empty shelf",
+      "passed": true
+    },
+    {
+      "name": "sample is explicitly labelled and readable",
+      "passed": true
+    },
+    {
+      "name": "create work, escape HTML and save manuscript",
+      "passed": true
+    },
+    {
+      "name": "new chapter and prompt include settings and previous chapter",
+      "passed": true
+    },
+    {
+      "name": "stream failure preserves candidate and original; stale events ignored",
+      "passed": true
+    },
+    {
+      "name": "continuation adoption and undo preserve the original",
+      "passed": true
+    },
+    {
+      "name": "interrupted generation survives reload without being marked complete",
+      "passed": true
+    },
+    {
+      "name": "multiple title candidates keep their work target and only change the title on adoption",
+      "passed": true
+    },
+    {
+      "name": "title count choices and malformed output remain editable and recoverable",
+      "passed": true
+    },
+    {
+      "name": "synopsis adoption is explicit, reversible and incomplete output survives reload",
+      "passed": true
+    },
+    {
+      "name": "ChatGPT illustration handoff copies bounded context and does not claim automatic generation",
+      "passed": true
+    },
+    {
+      "name": "one-tap API illustration attaches once to its original chapter and survives reload",
+      "passed": true
+    },
+    {
+      "name": "image import cancellation and invalid image references preserve existing illustrations",
+      "passed": true
+    },
+    {
+      "name": "active image requests block restore and deletion; wait cancellation clears the job",
+      "passed": true
+    },
+    {
+      "name": "reader settings and bookmark survive navigation",
+      "passed": true
+    },
+    {
+      "name": "posting payload stays separate from publication success",
+      "passed": true
+    },
+    {
+      "name": "backup export and failed restore protect existing manuscripts",
+      "passed": true
+    },
+    {
+      "name": "connection failure is readable and diagnostics omit private fields",
+      "passed": true
+    },
+    {
+      "name": "connection retry clears failure and retains manuscripts",
+      "passed": true
+    },
+    {
+      "name": "callback receipt waits for app return without a false login success or duplicate sign-in",
+      "passed": true
+    },
+    {
+      "name": "phone and fold layouts keep controls inside the viewport",
+      "passed": true
+    },
+    {
+      "name": "production posting-input script on synthetic editor fixtures",
+      "passed": true
+    },
+    {
+      "name": "background text snapshot restores a live job, preserves another draft and deduplicates queued deltas",
+      "passed": true
+    },
+    {
+      "name": "journal-merged terminal text is acknowledged only after save and never reappears after adoption",
+      "passed": true
+    },
+    {
+      "name": "background metadata reconstructs its original work and preserves edits in the visible work",
+      "passed": true
+    },
+    {
+      "name": "interrupted process results are restored without resubmission and missing source requires confirmation",
+      "passed": true
+    },
+    {
+      "name": "background image replay restores active progress and deduplicates already merged image metadata",
+      "passed": true
+    },
+    {
+      "name": "terminal acknowledgement waits for durable UI save and retries native acknowledgement failure",
+      "passed": true
+    },
+    {
+      "name": "conflicting candidates and a full image collection retain unacknowledged native results",
+      "passed": true
+    },
+    {
+      "name": "background settings expose notification and battery actions without resending active generation",
+      "passed": true
+    },
+    {
+      "name": "single partial resume retains original prompt through reload and tab changes",
+      "passed": true
+    },
+    {
+      "name": "100 episode UI reserves only new chapters and continues across all tabs",
+      "passed": true
+    },
+    {
+      "name": "batch stream replay and WebView reload do not duplicate or lose received text",
+      "passed": true
+    },
+    {
+      "name": "batch pause/reload/resume retains partial and completed chapters without resubmission",
+      "passed": true
+    },
+    {
+      "name": "100 completed chapters merge once and preserve subsequent manual edits",
+      "passed": true
+    },
+    {
+      "name": "empty work reuses the initial blank chapter and failed save prevents batch start",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
