@@ -1,0 +1,21 @@
+warning: [options] bootstrap class path not set in conjunction with -source 8
+1 warning
+PASS service readiness gates both API clients
+PASS foreground-service start failures send no API requests
+PASS foreground restrictions reject new work only
+PASS Activity pause/detach preserves native work and background results
+PASS terminal persistence precedes UI completion
+PASS cancel before preparation prevents API dispatch
+PASS cancel during preparation prevents API dispatch
+PASS queued cancellation cannot cancel replacement work
+PASS service idle-stop handshake protects new work
+PASS expired service cannot dispatch or cancel replacement work
+PASS terminal events and active starts are not duplicated
+PASS invalid requests never start a foreground service
+PASS metadata generation uses the same service gate
+PASS journal preparation failure prevents inference
+PASS terminal storage failure retains recoverable RAM state
+PASS service loss cancels only owned work
+PASS notifications and acknowledgements are bounded metadata
+PASS 101 assertions across 17 runtime scenarios; 0 failed scenarios.
+LIMITS: JVM fakes for Android Context/Activity, Service, clients and journal; no paid API calls, real HTTP, Android foreground-service lifecycle, notification delivery, lock-screen, Doze, process-kill or disk-persistence verification.
