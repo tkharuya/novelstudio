@@ -1,0 +1,17 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'jp.haruya.novelstudio'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'jp.haruya.novelstudio'
+        minSdk 26
+        targetSdk 36
+        versionCode 8
+        versionName '1.4.1'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
