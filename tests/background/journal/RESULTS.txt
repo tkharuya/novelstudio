@@ -1,0 +1,3 @@
+PASS: 142 journal assertions
+Production GenerationJournal; JVM Context/AtomicFile shims; synthetic data; no network or paid API calls.
+Run on 2026-11-08 with the bundled tests/background/journal/run.sh.
