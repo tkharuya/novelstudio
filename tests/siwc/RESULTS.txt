@@ -1,0 +1,2 @@
+PASS 254 offline checks: JWT, callback state, registration retry, auth transport/diagnostics, foreground handoff, bounded pre-write DNS retry, BOM/gzip, sanitized status, SSE terminal outcomes, model catalog, epoch race, application-context ownership, Activity replacement and background generation.
+LIMITS: JVM Android shims and in-memory credential storage; no browser/account/API/Keystore/device verification.
